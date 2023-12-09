@@ -1,0 +1,22 @@
+/* style.css */
+
+.styled-label {
+    -fx-font-size: 50;
+    -fx-text-fill: white;
+    /*-fx-background-color: #b1e2b1;*/
+    -fx-font-weight: bold;
+
+}
+
+.styled-button {
+    -fx-font-size: 40;
+    -fx-background-color: #969696;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: pointer;
+    -fx-border-color: black;
+
+}
+.styled-button:pressed, .clicked-button {
+    -fx-background-color: blue;
+}
